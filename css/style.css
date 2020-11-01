@@ -50,8 +50,26 @@ nav{
     border-radius: 10px;
     background-color: #ffffff;
 }
+.main-article{
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #ffffff; 
+}
 .short-text{
     text-align: left;
+}
+.container-img{
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+}
+.standard-quote{
+    display: block;
+    padding-left: 20px;
+    border-left: solid 3px #463B5A;
+}
+.standard-quote:before, .standard-quote:after{
+    content: none;
 }
 .btn-read{
     display: block;
@@ -61,11 +79,29 @@ nav{
 }
 .btn-read:hover{
     background-color: #79738B;
-    transition: 1s;
+    transition: 0.5s;
+}
+.social-sharing{
+    display: flex;
+    padding: 0px;
+    justify-content: flex-end;
+    text-decoration: none;
+    list-style-type: none;
+}
+.social-icons{
+    margin: 10px 5px;
+    font-size: 1.4em;
+}
+.social-hover:hover{
+    color: #79738B;
+    transition: 0.5s;
 }
 .sidebar{
     grid-area: side;
     padding: 20px;
+}
+.main-img, .sidebar-img{
+    width: 100%;
 }
 footer{
     display: flex;
