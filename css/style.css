@@ -8,13 +8,13 @@ body{
 }
 .container{
     display: grid;
+    width: 100%;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: auto 1fr auto;
     grid-template-areas:
         "nav nav nav nav nav nav nav nav"
         "main main main main main main side side"
         "foot foot foot foot foot foot foot foot";
-    width: 100%;
 }
 nav{
     display: flex;
@@ -150,15 +150,20 @@ footer{
 
 
 /* Tablet Mode Less than 900px and greater than 600px */
-@media(min-width: 600px) and (max-width: 900px){
+@media (min-width: 600px) and (max-width: 900px){
+    .container{
+        grid-template: "nav nav nav nav nav nav nav nav"
+        "main main main main main side side side"
+        "foot foot foot foot foot foot foot foot";
+    }
+}
+
+/* Phone Mode less than 599px */
+@media (max-width: 599px){
     .container{
         grid-template: "nav nav nav nav nav nav nav nav"
         "main main main main main main main main"
         "side side side side side side side side"
         "foot foot foot foot foot foot foot foot";
     }
-}
-
-/* Phone Mode less than 320px */
-@media(max-width: 320px){
 }
