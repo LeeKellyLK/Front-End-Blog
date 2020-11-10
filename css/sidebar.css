@@ -1,0 +1,29 @@
+.sidebar{
+    grid-area: side;
+    margin: 20px 20px 20px 0;
+}
+.sidebar-container{
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+.sidebar-head{
+    margin-top: 0;
+    padding-bottom: 5px;
+    border-bottom: solid 2px #898594;
+}
+.subscribe-form{
+
+}
+.form-label{
+    padding-right: 5px;
+}
+input{
+    margin: 10px 0;
+    height: 1.4em;
+}
+.sidebar-img{
+    width: 100%;
+}
