@@ -24,3 +24,17 @@ input{
 .sidebar-img{
     width: 100%;
 }
+
+/* Tablet Mode Less than 900px and greater than 600px */
+@media (min-width: 600px) and (max-width: 900px){
+    .sidebar{
+        margin: 20px;
+    }
+}
+
+/* Phone Mode less than 599px */
+@media (max-width: 599px){
+    .sidebar{
+        margin: 20px;
+    }
+}
