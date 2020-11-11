@@ -86,7 +86,7 @@ footer{
 @media (min-width: 600px) and (max-width: 900px){
     .container{
         grid-template: "nav nav nav nav nav nav nav nav"
-        "main main main main main side side side"
+        "main main main main main main main main"
         "foot foot foot foot foot foot foot foot";
     }
 }
