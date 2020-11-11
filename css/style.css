@@ -87,6 +87,7 @@ footer{
     .container{
         grid-template: "nav nav nav nav nav nav nav nav"
         "main main main main main main main main"
+        "side side side side side side side side"
         "foot foot foot foot foot foot foot foot";
     }
 }
